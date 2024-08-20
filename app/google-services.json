@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "37979424468",
+    "project_id": "solarsave-b25f7",
+    "storage_bucket": "solarsave-b25f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37979424468:android:f9d27f81af83345a085d41",
+        "android_client_info": {
+          "package_name": "com.bduque.solarsave"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw9mb1FNDuACTHuPxYweeOL1trjeYglos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
