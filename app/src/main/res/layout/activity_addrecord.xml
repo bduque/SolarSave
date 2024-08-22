@@ -6,6 +6,34 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF">
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="299dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/source_sans_pro"
+        android:text="Seleccione la categoría:"
+        android:textAlignment="center"
+        android:textColor="#595959"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="299dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/source_sans_pro"
+        android:text="Seleccione el mes correspondiente:"
+        android:textAlignment="center"
+        android:textColor="#595959"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
     <Button
         android:id="@+id/registrarDato"
         android:layout_width="326dp"
@@ -66,8 +94,6 @@
         android:id="@+id/categorias"
         android:layout_width="338dp"
         android:layout_height="37dp"
-        android:background="@color/azul_oscuro"
-        android:backgroundTint="@color/azul_oscuro"
         android:clickable="true"
         android:clipChildren="false"
         android:spinnerMode="dialog"
@@ -77,21 +103,19 @@
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.22" />
+        app:layout_constraintVertical_bias="0.275" />
 
     <Spinner
         android:id="@+id/mes"
         android:layout_width="336dp"
         android:layout_height="51dp"
-        android:background="@color/azul_oscuro"
-        android:backgroundTint="@color/azul_oscuro"
         android:spinnerMode="dialog"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.573"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.313" />
+        app:layout_constraintVertical_bias="0.402" />
 
     <TextView
         android:id="@+id/textView7"
@@ -103,10 +127,10 @@
         android:textColor="#595959"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.428" />
+        app:layout_constraintVertical_bias="0.512" />
 
     <SeekBar
         android:id="@+id/cantidadEnergia"
@@ -119,7 +143,7 @@
         app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478" />
+        app:layout_constraintVertical_bias="0.55" />
 
     <TextView
         android:id="@+id/valorEnergia"
@@ -132,6 +156,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.518" />
+        app:layout_constraintVertical_bias="0.581" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
